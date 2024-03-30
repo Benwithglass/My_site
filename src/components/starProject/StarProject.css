@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+.starProject {
+    height: 100dvh;
+    width: 100dvw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.726)), url(https://images.squarespace-cdn.com/content/v1/610e8a1442e2e073cafbc00f/d518b5c9-6567-4435-b522-ef6c3ab93b26/1505490457119557293.jpg?format=2500w);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    display: flex;
+    /* border: 1px solid white; */
+}
+
+.starProject_left {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.starProject_right {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: white;
+    font-family: "Aboreto", system-ui;
+    line-height: 20px;
+}
+
+.starProject img {
+    height: 100%;
+    width: 100%;
+
+    scale: 92%;
+    outline: 2px dashed white;
+    outline-offset: 0px;
+    border-radius: 20px;
+
+    transition: 0.25s all;
+    cursor: pointer;
+}
+
+.starProject img:hover {
+    outline-offset: 15px;
+}
+
+.starProject_right h1 {
+    font-size: 80px;
+    letter-spacing: -10px;
+}
+
+.starProject_right p {
+    position: relative;
+    top: -50px;
+    left: 8px;
+    /* color: black; */
+    width: fit-content;
+    font: 30px;
+}
+

@@ -1,0 +1,11 @@
+.imga {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100dvw;
+    height: 200dvh;
+}
+
+svg.draw {
+    opacity: 0.3;
+}
